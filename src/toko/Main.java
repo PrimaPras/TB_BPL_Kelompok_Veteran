@@ -9,8 +9,9 @@ public class Main {
 	// write your code here
         try {
             AuthControl authControl = new AuthControl();
-
-            Menu menu = new Menu(authControl.login());
+            do {
+                Menu menu = new Menu(authControl.login());
+            }while (true);
         }catch (NoSuchElementException e){
             System.out.println("Something Wrong with Database");
         }catch (Exception ex){
