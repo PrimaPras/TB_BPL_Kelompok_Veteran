@@ -44,8 +44,8 @@ public class Menu {
                 break;
 
             case 3:
-               TransaksiControl transaksiControl = new TransaksiControl();
-                transaksiControl.showAll();
+                TransaksiControl transaksiControl = new TransaksiControl();
+                transaksiControl.menu("Transaksi");
                 break;
 
             case 4:
@@ -63,6 +63,16 @@ public class Menu {
                 laporan.menu();
                 break;
 
+            case 7:
+                choosen = 0;
+                authArrayList = null;
+                break;
+
+            case 0:
+                System.exit(0);
+
+            default:
+                System.out.println("Tidak Ada Pilihan");
         }
 
     }
