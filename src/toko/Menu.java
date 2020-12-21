@@ -47,21 +47,21 @@ public class Menu {
                TransaksiControl transaksiControl = new TransaksiControl();
                 transaksiControl.showAll();
                 break;
-//
-//            case 4:
-//                JualBarangControl jualBarangControl = new JualBarangControl(authArrayList);
-//                jualBarangControl.menuUtamaJual();
-//                break;
-//
+
+            case 4:
+                JualBarangControl jualBarangControl = new JualBarangControl(authArrayList);
+                jualBarangControl.menuUtamaJual();
+                break;
+
             case 5:
                 barangControl = new BarangControl();
                 barangControl.reStockMenu();
                 break;
-//
-//            case 6:
-//                LaporanControl laporan = new LaporanControl();
-//                laporan.menu();
-//                break;
+
+            case 6:
+                LaporanControl laporan = new LaporanControl();
+                laporan.menu();
+                break;
 
         }
 
