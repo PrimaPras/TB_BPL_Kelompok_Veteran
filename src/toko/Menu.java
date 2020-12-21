@@ -37,11 +37,11 @@ public class Menu {
                 UserControl userControl = new UserControl();
                 userControl.menu("User");
                 break;
-//
-//            case 2:
-//                BarangControl barangControl = new BarangControl();
-//                barangControl.menu("Barang");
-//                break;
+
+            case 2:
+                BarangControl barangControl = new BarangControl();
+                barangControl.menu("Barang");
+                break;
 //
 //            case 3:
 //                TransaksiControl transaksiControl = new TransaksiControl();
@@ -53,10 +53,10 @@ public class Menu {
 //                jualBarangControl.menuUtamaJual();
 //                break;
 //
-//            case 5:
-//                barangControl = new BarangControl();
-//                barangControl.reStockMenu();
-//                break;
+            case 5:
+                barangControl = new BarangControl();
+                barangControl.reStockMenu();
+                break;
 //
 //            case 6:
 //                LaporanControl laporan = new LaporanControl();
