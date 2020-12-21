@@ -183,7 +183,7 @@ public class UserControl extends Control{
             showMenu();
 
             System.out.println("-----Edit User");
-            System.out.print("Username yang akan diubah : ");
+            System.out.print(" Masukkan Username yang akan diubah : ");
             String username = sc.nextLine();
 
             User user = showOne(username);

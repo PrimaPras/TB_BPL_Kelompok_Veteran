@@ -67,7 +67,7 @@ public abstract class Control implements IControl{
 
     public void tunggu() throws NoSuchElementException {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Tekan enter untuk melanjutkan");
+        System.out.print("enter untuk melanjutkan");
         sc.nextLine();
     }
 }
