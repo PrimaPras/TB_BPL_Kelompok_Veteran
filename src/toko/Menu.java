@@ -33,10 +33,10 @@ public class Menu {
 
     public void directMenu() throws SQLException {
         switch (choosen){
-//            case 1:
-//                UserControl userControl = new UserControl();
-//                userControl.menu("User");
-//                break;
+            case 1:
+                UserControl userControl = new UserControl();
+                userControl.menu("User");
+                break;
 //
 //            case 2:
 //                BarangControl barangControl = new BarangControl();
