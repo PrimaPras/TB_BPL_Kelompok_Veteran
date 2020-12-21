@@ -42,11 +42,11 @@ public class Menu {
                 BarangControl barangControl = new BarangControl();
                 barangControl.menu("Barang");
                 break;
-//
-//            case 3:
-//                TransaksiControl transaksiControl = new TransaksiControl();
-//                transaksiControl.showAll();
-//                break;
+
+            case 3:
+               TransaksiControl transaksiControl = new TransaksiControl();
+                transaksiControl.showAll();
+                break;
 //
 //            case 4:
 //                JualBarangControl jualBarangControl = new JualBarangControl(authArrayList);
